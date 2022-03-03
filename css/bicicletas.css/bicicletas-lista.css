@@ -59,4 +59,14 @@
   .bicicletas-lista-item {
     gap: 20px;
   }
+
+  .bicicletas-lista h2 {
+    padding-left: initial;
+  }
+}
+
+@media (max-width: 400px) {
+  .bicicletas-lista h2 {
+    font-size: 1.7rem;
+  }
 }
