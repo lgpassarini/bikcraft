@@ -1,12 +1,10 @@
 #contato {
-  background: var(--cor-1);
-  box-shadow: inset 0px 115vh var(--cor-11);
+  background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
 }
 
 .contato {
   display: grid;
   grid-template-columns: 5fr 7fr;
-  padding-bottom: 140px;
 }
 
 .contato-dados,
@@ -70,9 +68,6 @@
 }
 
 @media (max-width: 800px) {
-  #contato {
-    box-shadow: inset 0px 200vh var(--cor-11);
-  }
   .contato {
     grid-template-columns: 1fr;
   }
