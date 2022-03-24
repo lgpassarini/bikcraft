@@ -19,6 +19,8 @@
   font-family: "Poppins";
   font-weight: 600;
   max-width: max-content;
+  cursor: pointer;
+  border: none;
 }
 
 .botao.seta {
