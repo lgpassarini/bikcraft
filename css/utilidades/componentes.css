@@ -73,6 +73,11 @@
 }
 
 /* titulo interno */
+
+.titulo {
+  background: url(../../img/dec/top-right.svg) no-repeat top right 20px;
+}
+
 .titulo-bg {
   padding-bottom: 60px;
   padding-top: 60px;
